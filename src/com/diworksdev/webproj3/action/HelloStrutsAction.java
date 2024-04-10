@@ -19,14 +19,20 @@ public class HelloStrutsAction extends ActionSupport {
 
 		result = dto.getResult();
 
+		System.out.println(result);
+
 		if(result.equals("MySQLと接続できます。")) {
 			ret = SUCCESS;
 		} else {
 			ret = ERROR;
 		}
+		System.out.println(ret);
 		return ret;
 	}
-	public String getResult(String result) {
+	public String getResult() {
 		return result;
+	}
+	public void setResult(String result){
+		this.result = result;
 	}
 }

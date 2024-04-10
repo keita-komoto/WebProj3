@@ -5,7 +5,6 @@ public class HelloStrutsDTO {
 
 	public String getResult() {
 		return result;
-		
 	}
 
 	public void setResult(String result) {
