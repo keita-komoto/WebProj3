@@ -17,7 +17,7 @@
 		<s:if test='qtype=="support"'>アフターサポートについて</s:if>
 	</p>
 	<p>お問い合わせ内容：</p>
-	<s:property value="body"/>
+	<s:property value="body" />
 
 </body>
 </html>
